@@ -33,6 +33,7 @@ const Ratings = (props) => {
     <form onSubmit={onSubmitHandler}>
       <div className="box-ratings">
         <button
+          type="button"
           value={1}
           onClick={ratingOneHandler}
           className="item-rating rating-1"
@@ -40,6 +41,7 @@ const Ratings = (props) => {
           1
         </button>
         <button
+          type="button"
           value={2}
           onClick={ratingTwoHandler}
           className="item-rating rating-2"
@@ -47,6 +49,7 @@ const Ratings = (props) => {
           2
         </button>
         <button
+          type="button"
           value={3}
           onClick={ratingThreeHandler}
           className="item-rating rating-3"
@@ -54,6 +57,7 @@ const Ratings = (props) => {
           3
         </button>
         <button
+          type="button"
           value={4}
           onClick={ratingFourHandler}
           className="item-rating rating-4"
@@ -61,6 +65,7 @@ const Ratings = (props) => {
           4
         </button>
         <button
+          type="button"
           value={5}
           onClick={ratingFiveHandler}
           className="item-rating rating-5"

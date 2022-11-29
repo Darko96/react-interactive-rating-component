@@ -1,0 +1,23 @@
+.box-icon-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  height: 4.8rem;
+  max-width: 4.8rem;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: var(--white);
+  margin-bottom: 0.7rem;
+}
+
+.text {
+  color: var(--medium-grey);
+  margin-bottom: 2.4rem;
+}

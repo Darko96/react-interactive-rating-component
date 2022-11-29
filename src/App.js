@@ -1,7 +1,9 @@
+import InteractiveRating from "./Components/InteractiveRating.js";
+
 const App = () => {
   return (
-    <div>
-      <h2>Let's get started!</h2>
+    <div className="main-container">
+      <InteractiveRating />
     </div>
   );
 };

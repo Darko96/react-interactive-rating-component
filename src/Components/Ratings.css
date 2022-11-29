@@ -1,0 +1,73 @@
+:root {
+  --white: #ffffff;
+  --Orange: #fb7413;
+  --light-grey: #959eac;
+  --medium-grey: #7c8798;
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+}
+
+.box-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 2.1rem;
+}
+
+.item-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.1rem;
+  width: 5.1rem;
+  background-color: var(--dark-blue);
+  border-radius: 3rem;
+  margin-bottom: 3.2rem;
+  cursor: pointer;
+  border: none;
+  color: var(--medium-grey);
+}
+
+.item-rating span {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: var(--medium-grey);
+}
+
+.item-rating:hover {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+.item-rating:focus {
+  background-color: var(--Orange);
+  color: var(--white);
+}
+
+.item-rating:active {
+  background-color: var(--Orange);
+}
+
+.item-rating:active span {
+  color: var(--white);
+}
+
+.btn-submit {
+  border: none;
+  border-radius: 2.2rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--Orange);
+  width: 34.1rem;
+  padding: 1.1rem 13.8rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: var(--white);
+  color: var(--Orange);
+}

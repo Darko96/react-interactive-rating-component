@@ -1,0 +1,46 @@
+:root {
+  --white: #ffffff;
+  --Orange: #fb7413;
+  --light-grey: #959eac;
+  --medium-grey: #7c8798;
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  font-size: 1.5rem;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  background-color: var(--very-dark-blue);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rating-component {
+  max-width: 41.2rem;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 3rem;
+  padding: 3.2rem;
+}
